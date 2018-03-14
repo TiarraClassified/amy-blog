@@ -1,0 +1,27 @@
+.navbar{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    margin-left: 35%;
+    padding-top: 20px;
+    color: #2b492b;
+}
+
+.tab{
+    width: 120px;
+    text-align: center;
+    color: #2b492b;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited{
+    color: #2b492b;
+}
+

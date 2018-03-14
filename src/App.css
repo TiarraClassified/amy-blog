@@ -1,28 +1,65 @@
-.App {
+/* c5ebc5 */
+
+#app{
+  background: #c5ebc5;
+  height: 2000px;
+  width: 100vw;
+  color: #2b492b;
+  font-weight: bold;
+}
+
+#homeimage{
+  width: 100%;
+  height: 300px;
+  background-image: url('./images/library.jpg');
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #2b492b;
+  box-shadow: 0px 1px 12px 5px #2b492b;
+  background-attachment: fixed;
+}
+
+#homeimage p{
   text-align: center;
+  margin-top:100px;
+  width: 300px;
+  height: 100px;
+  margin-left: 40%;
+  background: #c5ebc5;
+  opacity: 0.9;
+  padding-top: 37px;
+  box-shadow: inset 0px 1px 12px 5px #2b492b; 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.blogholder{
+  /* background-image: url('./images/leaves.png'); */
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  margin: 100px 100px 0 100px;
+  background-color: white;
+  /* background-color: #F6F6B7; */
+  opacity: 0.6;
+  /* box-shadow: 0px 1px 12px 5 px #A73819; */
+  box-shadow: 0px 1px 12px 5px #2b492b;
+  padding-top: 50px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.blogthumbnail{
+  margin: auto;
+  width: 80%;
+  height: 300px;
+  padding-left: 20px;
+  border: 1px dotted green;
+  display: flex;
 }
 
-.App-title {
-  font-size: 1.5em;
+.blogtext{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.blogthumbnail img{
+  width: 50%;
 }
