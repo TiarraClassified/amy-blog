@@ -6,7 +6,7 @@ export default function Navbar (){
 
     return(
     <section className='navbar'>
-        <Link to='/'><div className='tab' style={{textAlign:'right'}}>Blogs</div></Link>
+        <Link to='/'><div className='tab' style={{textAlign:'right'}}>Stories</div></Link>
         <Link to='/about'><div className='tab'>About Me</div></Link>
         <Link to='/favs'><div className='tab'>Author Favorites</div></Link>
     </section>

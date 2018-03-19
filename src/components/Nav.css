@@ -4,13 +4,13 @@
     display: flex;
     margin-left: 35%;
     padding-top: 20px;
-    color: #2b492b;
+    color: #F7F5E5;
 }
 
 .tab{
     width: 120px;
     text-align: center;
-    color: #2b492b;
+    color: #F7F5E5;
 }
 
 a{
@@ -18,10 +18,10 @@ a{
 }
 
 a:hover{
-    color: white;
+    color: #F7F5E5;
 }
 
 a:visited{
-    color: #2b492b;
+    color: #F7F5E5;
 }
 
