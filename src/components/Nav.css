@@ -1,16 +1,23 @@
 .navbar{
-    width: 100vw;
+    width: 100%;
     height: 60px;
-    display: flex;
-    margin-left: 35%;
     padding-top: 20px;
-    color: #F7F5E5;
+    color: #F5DDB7;
+}
+
+#linkcontainer{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 40%;
+    margin: 0;
+    right: 10px;
 }
 
 .tab{
     width: 120px;
     text-align: center;
-    color: #F7F5E5;
+    color: #F5DDB7;
 }
 
 a{
@@ -18,10 +25,10 @@ a{
 }
 
 a:hover{
-    color: #F7F5E5;
+    color: #F5DDB7;
 }
 
 a:visited{
-    color: #F7F5E5;
+    color: #F5DDB7;
 }
 

@@ -1,25 +1,19 @@
-
+/* @import "Nav"; */
+/* @import "Gear"; */
 
 #app{
   background: #2b492b;
-   /* #c5ebc5; */
   height: 2000px;
   width: 100vw;
   color: #C17D47;
   font-weight: bold;
-
+  position: relative;
 }
 
 #belownav{
-  background-image: url('./images/coopergears.png');
-  background-size: cover;
-  background-position-y: -102%;
-  /* background-position: center; */
-  /* background: no-repeat;   */
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  background-size: 90%;
+  position: relative;
 }
 
 #homeimage{
@@ -31,14 +25,16 @@
   border: 1px solid #2b492b;
   box-shadow: 0px 1px 12px 5px #C17D47;
   background-attachment: fixed;
+  padding-top: 100px;
 }
 
 #homeimage p{
   text-align: center;
-  margin-top:100px;
+  /* margin-top: 100px; */
   width: 300px;
   height: 100px;
-  margin-left: 40%;
+  /* margin-left: 40%; */
+  margin: auto;
   background: #F5DDB7;
   opacity: 0.9;
   padding-top: 37px;
@@ -46,17 +42,19 @@
 }
 
 .blogholder{
-  /* background-image: url('./images/woodenborder.png'); */
   background-size: cover;
   background-position: center;
   height: 760px;
   margin: 100px 100px 0 100px;
-  background-color:#fffbed;
-  /* background-color: #F6F6B7; */
-  /* box-shadow: 0px 1px 12px 5 px #A73819; */
-  box-shadow: 0px 1px 12px 5px #9bae3d;
+  background-color:rgba(245,221,183,0.6);
+  box-shadow: 0px 1px 12px 5px #C17D47;
   padding-top: 50px;
-  opacity: 1;
+  /* opacity: 0.3; */
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 80%;
 }
 
 .blogthumbnail{
@@ -101,20 +99,23 @@
 }
 
 .timeline{
-  position: relative;
+  position: absolute;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  top: 210%;
+  align-items: center;
 }
 
 .timelinetext{
   text-align: center;
-  /* margin-top:80px; */
   font-size: 50px;
-  margin-bottom: 50px;
-  border-bottom: 4px double #9bae3d;
-  /* box-shadow: 0px 1px 12px 5px #9bae3d; */
+  border-bottom: 4px double #C17D47;
   padding: 20px;
   width: 400px;
-  margin: 50px auto 0 auto;
+  position: absolute;
 }
 
 .right{
@@ -131,7 +132,7 @@
   width:15px;
   height: 15px;
   border-radius: 50%;
-  background: #C17D47;
+  background: #F5DDB7;
   position: absolute;
   left:99.2%;
   top: 30px;
@@ -151,7 +152,7 @@
   width:15px;
   height: 15px;
   border-radius: 50%;
-  background: #C17D47;
+  background: #F5DDB7;
   position: absolute;
   right: 98.75%;
 }
@@ -166,7 +167,9 @@
 
 .timelinetitle{
   font-size: 30px;
+  color: #F5DDB7;
 }
 .timelinedate{
   font-size: 15px;
+  color: #F5DDB7;
 }
