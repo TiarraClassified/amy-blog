@@ -115,7 +115,7 @@
   border-bottom: 4px double #C17D47;
   padding: 20px;
   width: 400px;
-  position: absolute;
+  margin-bottom: 10px;
 }
 
 .right{
@@ -124,7 +124,7 @@
   width: 50%;
   position: relative;
   text-align: right;
-  padding: 30px;
+  padding-right: 25px;
 }
 
 .right:after{
@@ -132,10 +132,10 @@
   width:15px;
   height: 15px;
   border-radius: 50%;
-  background: #F5DDB7;
+  background: #C17D47;
   position: absolute;
-  left:99.2%;
-  top: 30px;
+  right: 0;
+  top: 0;
 }
 
 .left{
@@ -144,7 +144,8 @@
   margin-left: 50%;
   width: 50%;
   position: relative;
-  padding: 30px;
+  padding-left: 10px;
+  /* padding: 30px; */
 }
 
 .left:before{
@@ -152,9 +153,9 @@
   width:15px;
   height: 15px;
   border-radius: 50%;
-  background: #F5DDB7;
+  background: #C17D47;
   position: absolute;
-  right: 98.75%;
+  margin-left: -25px;
 }
 
 .line{
@@ -162,14 +163,16 @@
   width: 2px;
   position: absolute;
   left: 50%;
-  top: 1409px;
+  margin-left: -8.5px;
+  top: 26%;
+  /* top: 1409px; */
 }
 
 .timelinetitle{
   font-size: 30px;
-  color: #F5DDB7;
+  color: #C17D47;
 }
 .timelinedate{
   font-size: 15px;
-  color: #F5DDB7;
+  color: #C17D47;
 }

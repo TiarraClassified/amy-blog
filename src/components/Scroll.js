@@ -61,18 +61,27 @@ export default class Scroll extends Component{
 
                 <div className="right" 
                 style={(this.state.fade1) ? {opacity : 1, transition: "3s"}: {opacity: 0}}
-                ><p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[2].title}</p>
-                <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[2].date}</p>
+                >
+                    <p className='timelinetitle'>
+                    {this.props.blogs.length>0 && this.props.blogs[2].title}</p>
+
+                    <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[2].date}</p>
                 </div>
 
-                <div className='left' style={(this.state.fade2) ? {opacity : 1, transition: "3s"}: {opacity: 0}}><p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[3].title}</p>
-                <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[3].date}</p></div>
+                <div className='left' style={(this.state.fade2) ? {opacity : 1, transition: "3s"}: {opacity: 0}}>
+                    <p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[3].title}</p>
+                    <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[3].date}</p>
+                </div>
 
-                <div className='right' style={(this.state.fade3) ? {opacity : 1, transition: "3s"}: {opacity: 0}}><p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[4].title}</p>
-                <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[4].date}</p></div>
+                <div className='right' style={(this.state.fade3) ? {opacity : 1, transition: "3s"}: {opacity: 0}}>
+                    <p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[4].title}</p>
+                    <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[4].date}</p>
+                </div>
 
-                <div className='left' style={(this.state.fade4) ? {opacity : 1, transition: "3s"}: {opacity: 0}}><p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[5].title}</p>
-                <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[5].date}</p></div>
+                <div className='left' style={(this.state.fade4) ? {opacity : 1, transition: "3s"}: {opacity: 0}}>
+                    <p className='timelinetitle'>{this.props.blogs.length>0 && this.props.blogs[5].title}</p>
+                    <p className='timelinedate'>{this.props.blogs.length>0 && this.props.blogs[5].date}</p>
+                </div>
             </div>
         )
     }
